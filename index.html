@@ -8,87 +8,86 @@
 			href="https://fonts.googleapis.com/css?family=Poppins"
 			rel="stylesheet"
 		/>
-		<style>
-			body {
-				font-family: "Poppins";
-			}
-		</style>
+		<link rel="stylesheet" href="style.css" />
 		<link
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
 		/>
-		<script src="https://cdn.tailwindcss.com"></script>
 	</head>
-	<body
-		class=""
-		style="
-			background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
-			background-attachment: fixed;
-		"
-	>
-		<div class="md:flex md:justify-between md:gap-4 py-0 px-6">
-			<header
-				class="md:sticky md:top-0 md:min-w-[30vw] md:max-h-[100vh] md:flex md:flex-col md:justify-between md:py-24"
-			>
-				<div class="">
+	<body class="body">
+		<div class="container">
+			<header class="header">
+				<nav class="nav">
+					<ul id="navUl">
+						<li class="navLi"><a class="navA" href="#about">About</a></li>
+						<li class="navLi"><a class="navA" href="#resume">Resume</a></li>
+						<li class="navLi"><a class="navA" href="#projects">Projects</a></li>
+					</ul>
+				</nav>
+			</header>
+			<aside class="aside">
+				<div class="sectionDiv">
 					<h1>Alicia Montgomery</h1>
 					<h2>Aspiring Front-end Engineer</h2>
 					<img
 						src="img/AliciaFavicon_large.png"
 						alt="Pixel image of Alicia"
-						class="rounded-full size-40 md:max-52"
+						id="profileImg"
 					/>
 					<p>Hello</p>
 					<p>I am a recent graduate pursuing my web development dream</p>
 				</div>
-				<div class="bottom-8">
-					<p>icons</p>
-				</div>
-			</header>
-			<main class="md:py-24">
-				<section>
-					<h1 class="sticky top-0 bg-white/75">About</h1>
-					<p>
-						Ever since I was young, I’ve been drawn to pretty things. It wasn’t
-						until I was older that I started to understand that there was a
-						human behind those designs. One of the reasons I was drawn to
-						front-end development is because I could take those designs and turn
-						them into functional “art”. I’ve been hooked ever since. Taking
-						someone or my own design and bringing them to life is my favorite
-						part of the process.
-					</p>
-					<p>
-						I recently graduated with a Master’s in IT while working full time.
-						I am now working on my skills to become an upstanding front-end
-						engineer.
-					</p>
-					<p>
-						When not working, I can be found making art, creating a video game
-						(and playing them!), and watching anime.
-					</p>
+			</aside>
+			<main class="main">
+				<section class="section" id="about">
+					<h1 class="sectionH1">About</h1>
+					<div class="sectionDiv">
+						<p class="sectionP">
+							Ever since I was young, I’ve been drawn to pretty things. It
+							wasn’t until I was older that I started to understand that there
+							was a human behind those designs. One of the reasons I was drawn
+							to front-end development is because I could take those designs and
+							turn them into functional “art”. I’ve been hooked ever since.
+							Taking someone or my own design and bringing them to life is my
+							favorite part of the process.
+						</p>
+						<p class="sectionP">
+							I recently graduated with a Master’s in IT while working full
+							time. I am now working on my skills to become an upstanding
+							front-end engineer.
+						</p>
+						<p class="sectionP">
+							When not working, I can be found making art, working on a video
+							game with my brother (and playing other games!), and watching
+							anime.
+						</p>
+					</div>
 				</section>
-				<section>
-					<h1 class="sticky top-0 bg-white/75">Resume</h1>
-					<h2 class="underline">Education</h2>
-					<ul class="py-2">
-						<li>
-							Master of Science in Information Technology, concentration in Web
-							Design
-						</li>
-						<li>Southern New Hampshire University, Manchester, NH (Remote)</li>
-						<li>Completed 05/2020</li>
-					</ul>
-					<ul class="py-2">
-						<li>Bachelor of Science in Computer Science, minor in Fine Arts</li>
-						<li>George Washington University, Washington, D.C.</li>
-						<li>Completed 06/25/2023</li>
-					</ul>
-					<h2 class="underline">Professional Experience</h2>
-					<div class="py-2">
-						<ul>
+				<section class="section" id="resume">
+					<h1 class="sectionH1">Resume</h1>
+					<div class="sectionDiv">
+						<h2 class="sectionH2">Education</h2>
+						<ul class="sectionUl">
+							<li>
+								Master of Science in Information Technology, concentration in
+								Web Design
+							</li>
+							<li>
+								Southern New Hampshire University, Manchester, NH (Remote)
+							</li>
+							<li>Completed 05/2020</li>
+						</ul>
+						<ul class="sectionUl">
+							<li>
+								Bachelor of Science in Computer Science, minor in Fine Arts
+							</li>
+							<li>George Washington University, Washington, D.C.</li>
+							<li>Completed 06/25/2023</li>
+						</ul>
+						<h2 class="sectionH2">Professional Experience</h2>
+						<ul class="sectionUl">
 							<li>Business Analyst/ IT Specialist | eTelligent Group</li>
 							<li>September 2020 - May 2023</li>
-
 							<li>
 								Coordinated, managed, and drove improvements across IT projects.
 								Planed IT projects with multiple stages in the systems
@@ -100,9 +99,8 @@
 								customers and stakeholders.
 							</li>
 						</ul>
-					</div>
-					<div class="py-2">
-						<ul>
+
+						<ul class="sectionUl">
 							<li>Frontend Developer Intern | GBCS Group</li>
 							<li>October 2022 – November 2022</li>
 							<li>
@@ -114,9 +112,7 @@
 								meet company needs.
 							</li>
 						</ul>
-					</div>
-					<div class="py-2">
-						<ul>
+						<ul class="sectionUl">
 							<li>
 								Administrative Student Assistant | George Washington University
 							</li>
@@ -126,9 +122,7 @@
 								support of office operations.
 							</li>
 						</ul>
-					</div>
-					<div class="py-2">
-						<ul>
+						<ul class="sectionUl">
 							<li>
 								Administrative Intern | U.S. Army Material Support Command
 							</li>
@@ -140,9 +134,7 @@
 								military vehicles.
 							</li>
 						</ul>
-					</div>
-					<div class="py-2">
-						<ul>
+						<ul class="sectionUl">
 							<li>
 								Call Desk Intern | Area IV Directorate of Public Works, U.S.
 								Army
@@ -154,10 +146,8 @@
 								services to 5,000+ civilian workers and military employees.
 							</li>
 						</ul>
-					</div>
-					<h2 class="underline">Volunteer Experience</h2>
-					<div class="py-2">
-						<ul>
+						<h2 class="sectionH2">Volunteer Experience</h2>
+						<ul class="sectionUl">
 							<li>Student Volunteer | SIGGRAPH</li>
 							<li>August 2019</li>
 							<li>
@@ -167,10 +157,8 @@
 								professionals.
 							</li>
 						</ul>
-					</div>
-					<h2 class="underline">Awards, Recognition, and Certifications</h2>
-					<div class="py-2">
-						<ul>
+						<h2 class="sectionH2">Awards, Recognition, and Certifications</h2>
+						<ul class="sectionUl">
 							<li>eTelligent Employee Choice Award - 12/2021</li>
 							<li>eTelligent Rookie of the Year - 12/2020</li>
 							<li>
@@ -182,43 +170,45 @@
 								– Udemy Course Certificate – 03/2023
 							</li>
 						</ul>
-					</div>
-					<div class="bg-white/75">
-						<a href="projects.html">Full Resume</a>
+						<div class="sectionButton" id="projects">
+							<a href="projects.html">Full Resume</a>
 
-						<span class="material-symbols-outlined align-middle">
-							arrow_forward
-						</span>
+							<span class="material-symbols-outlined align-middle">
+								arrow_forward
+							</span>
+						</div>
 					</div>
 				</section>
-				<section class="pt-2">
-					<h1 class="sticky top-0 bg-white/75">Projects</h1>
-					<ul class="py-2">
-						<li>Website Redesign - GBCS Group - Nov. 2022</li>
-						<li class="italic">A New website for the GBCS Group</li>
-						<li>
-							Supported building and deployment of the new GBCSGroup website
-							from 50% to 100% completion within a 6-week time frame.
-						</li>
-					</ul>
-					<ul class="py-2">
-						<li>Website Creation (IT 647) – Dec. 2022</li>
-						<li class="italic">A website for a fictional music festival</li>
-						<li>
-							Developed a multipage website to promote a fictional music
-							festival called SNHU-a-Palooza where users could learn more about
-							the event and register for tickets. The website consisted of three
-							user pages and a ticket confirmation page. The website was created
-							using HTML and CSS, and the backend used MySQL and PHP for
-							connecting to and updating the database.
-						</li>
-					</ul>
-					<div class="bg-white/75">
-						<a href="projects.html">More Projects</a>
+				<section class="section">
+					<h1 class="sectionH1">Projects</h1>
+					<div class="sectionDiv">
+						<ul class="sectionUl">
+							<li>Website Redesign - GBCS Group - Nov. 2022</li>
+							<li class="italic">A New website for the GBCS Group</li>
+							<li>
+								Supported building and deployment of the new GBCSGroup website
+								from 50% to 100% completion within a 6-week time frame.
+							</li>
+						</ul>
+						<ul class="sectionUl">
+							<li>Website Creation (IT 647) – Dec. 2022</li>
+							<li class="italic">A website for a fictional music festival</li>
+							<li>
+								Developed a multipage website to promote a fictional music
+								festival called SNHU-a-Palooza where users could learn more
+								about the event and register for tickets. The website consisted
+								of three user pages and a ticket confirmation page. The website
+								was created using HTML and CSS, and the backend used MySQL and
+								PHP for connecting to and updating the database.
+							</li>
+						</ul>
+						<div class="sectionButton">
+							<a href="projects.html">More Projects</a>
 
-						<span class="material-symbols-outlined align-middle">
-							arrow_forward
-						</span>
+							<span class="material-symbols-outlined align-middle">
+								arrow_forward
+							</span>
+						</div>
 					</div>
 				</section>
 			</main>
