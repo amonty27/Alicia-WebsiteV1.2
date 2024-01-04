@@ -1,4 +1,5 @@
 window.onload = function () {
+	console.log("I see you looking in here 👀");
 	setInterval(function () {
 		const d = new Date();
 		const localTime = d.getTime();
