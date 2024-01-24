@@ -1,1 +1,122 @@
-<h1>More Projects</h1>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<head>
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<link
+				href="https://fonts.googleapis.com/css?family=Poppins"
+				rel="stylesheet"
+			/>
+			<link rel="stylesheet" href="styles.css" />
+			<link
+				rel="stylesheet"
+				href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono"
+			/>
+			<title>Projects</title>
+			<script
+				src="https://kit.fontawesome.com/754a001a28.js"
+				crossorigin="anonymous"
+			></script>
+		</head>
+	</head>
+	<body>
+		<div class="projectsResume">
+			<header class="nav colorrect">
+				<nav class="classynav">
+					<p class="icon">AM</p>
+					<ul class="classyul">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="resume.html">Resume</a></li>
+						<li><a href="projects.html">Projects</a></li>
+					</ul>
+					<div class="timeclock">
+						<img src="/img/clock.svg" alt="clock icon" id="icon" />
+
+						<p id="time"></p>
+					</div>
+				</nav>
+			</header>
+			<section class="projectsDetails">
+				<h1>Projects</h1>
+				<div id="project1">
+					<div class="titleDiv" onclick="display('contentDiv1')">
+						<img src="img/gbcsgroup.png" alt="decorative image" />
+						<h2>GBCS Group Website Revamp - 2022</h2>
+						<h3>Web Dev</h3>
+					</div>
+					<div class="contentDiv" id="contentDiv1" style="display: none">
+						<p>A New website for the GBCS Group</p>
+						<img src="img/gbcsgroup.png" alt="GBCS Groups's Homepage" />
+						<p>
+							Supported building and deployment of the new GBCSGroup website
+							from 50% to 100% completion within a 6-week timeframe.
+						</p>
+						<p>
+							I was responsible for leading a team of three interns,
+							implementing the design of the website, and reporting to
+							senior-level stakeholders.
+						</p>
+						<p>
+							This project taught me the development cycle, working with
+							stakeholders, and using new technologies.
+						</p>
+						<button id="toGBCS" onclick="toGBCSWeb()">View Project</button>
+					</div>
+				</div>
+				<div id="project2">
+					<div class="titleDiv" onclick="display('contentDiv2')">
+						<img src="img/spa.png" alt="decorative image" />
+						<h2>Spa Website Redesign - 2022</h2>
+						<h3>Design, UX/UR</h3>
+					</div>
+					<div class="contentDiv" id="contentDiv2" style="display: none">
+						<p>Redesign a website for a (fictional) Spa business</p>
+						<img src="img/spa.png" alt="Spa Website Homepage Redesign" />
+						<p>
+							As a part of my master’s coursework, I created a new website
+							design for a fictional spa business, based on generated user
+							feedback.
+						</p>
+						<p>
+							For the project, I created the design, user research documents,
+							and pitch decks to show the clients the need for user research.
+						</p>
+						<p>
+							This project taught me the importance of research before design,
+							and how to create pleasing designs.
+						</p>
+						<button id="toSpa" onclick="toSpa()">View Project</button>
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<div><p>Thanks for Visiting!</p></div>
+				<div id="footerIcon"><p class="icon">AM</p></div>
+				<div id="icons">
+					<a
+						href="https://github.com/amonty27"
+						target="_blank"
+						rel="noreferrer noopener"
+						><i
+							class="fa-brands fa-square-github fa-2xl"
+							style="color: #000000"
+						></i
+					></a>
+					<a
+						href="https://www.linkedin.com/in/aliciamontgomery1/"
+						target="_blank"
+						rel="noopener noreferrer"
+						><i class="fa-brands fa-linkedin fa-2xl" style="color: #000000"></i
+					></a>
+					<a
+						href="mailto:alimon0729@gmail.com?subject=Reaching Out From Website"
+					>
+						<i class="fa-solid fa-envelope fa-2xl" style="color: #000000"></i>
+					</a>
+				</div>
+			</footer>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
