@@ -45,7 +45,6 @@ body {
 	grid-area: nav;
 	text-align: center;
 	top: 0px;
-	color: rgba(234, 82, 111, 1);
 	padding: 0vw 2vw;
 	display: flex;
 	justify-content: space-between;
@@ -86,6 +85,7 @@ body {
 .classyul li a {
 	text-decoration: none;
 	color: inherit;
+	padding: 8px;
 }
 
 .classyul li a:hover {
