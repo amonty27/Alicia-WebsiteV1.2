@@ -13,3 +13,12 @@ window.onload = function () {
 		document.getElementById("time").innerHTML = time;
 	}, 1000); // 1000 milliseconds = 1 second
 };
+
+function toResume() {
+	const name = document.querySelector("#projectsButton");
+	// add click event listener
+	name.addEventListener("click", () => {
+		// open a new tab
+		window.location.href = "projects.html";
+	});
+}

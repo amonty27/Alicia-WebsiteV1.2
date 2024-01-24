@@ -3,50 +3,117 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Alicia's Portfolio</title>
 		<link
 			href="https://fonts.googleapis.com/css?family=Poppins"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="styles.css" />
 		<link
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono"
 		/>
+		<title>Home</title>
+		<script
+			src="https://kit.fontawesome.com/754a001a28.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
-	<div class="colorrect"></div>
-	<div class="container">
-		<header class="header">
-			<nav class="classynav">
-				<p class="specialFont" id="icon">AM</p>
-				<ul class="classyul">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Resume</a></li>
-					<li><a href="#">Projects</a></li>
-				</ul>
-				<div class="timeclock">
-					<img src="/img/clock.svg" alt="clock icon" />
+	<body>
+		<div class="container">
+			<header class="nav colorrect">
+				<nav class="classynav">
+					<p class="icon">AM</p>
+					<ul class="classyul">
+						<li><a href="#">Home</a></li>
+						<li><a href="resume.html">Resume</a></li>
+						<li><a href="projects.html">Projects</a></li>
+					</ul>
+					<div class="timeclock">
+						<img src="/img/clock.svg" alt="clock icon" id="icon" />
 
-					<p id="time"></p>
+						<p id="time"></p>
+					</div>
+				</nav>
+			</header>
+			<section class="hero">
+				<h1 id="h1-1">Alicia</h1>
+				<h1 id="h1-2">Montgomery</h1>
+				<img src="img/me.svg" alt="3d render of Alicia Montgomery" />
+				<h1 id="h1-3">front-end</h1>
+				<h1 id="h1-4">developer</h1>
+			</section>
+			<section class="about">
+				<p id="p-1">
+					I am a recent graduate pursuing my web development dream.
+				</p>
+				<p id="p-2">
+					Ever since I was young, I’ve been drawn to pretty things. It wasn’t
+					until I was older that I started to understand that there was a human
+					behind those designs. One of the reasons I was drawn to front-end
+					development is because I could take beautiful designs and turn them
+					into functional “art”. I’ve been hooked ever since. Taking someone or
+					my own designs and bringing them to life is my favorite part of the
+					process.
+				</p>
+				<p id="p-3">
+					I recently graduated with a Master’s in IT while working full time. I
+					am now working on my skills to become an upstanding front-end
+					engineer.
+				</p>
+				<p id="p-4">
+					When not working, I can be found making art, creating a video game
+					(and playing them!), and watching anime.
+				</p>
+			</section>
+			<section class="projects">
+				<div id="h1Div">
+					<h1>Check out my Work!</h1>
 				</div>
-			</nav>
-		</header>
-		<body class="body">
-			<div class="Main">
-				<h1>hello</h1>
-				<h1 class="specialFont">Alicia</h1>
-				<h1 class="specialFont">Montgomery</h1>
-				<h1>hello</h1>
-				<h1 class="specialFont">Alicia</h1>
-				<h1 class="specialFont">Montgomery</h1>
-				<h1>hello</h1>
-				<h1 class="specialFont">Alicia</h1>
-				<h1 class="specialFont">Montgomery</h1>
-				<h1>hello</h1>
-				<h1 class="specialFont">Alicia</h1>
-				<h1 class="specialFont">Montgomery</h1>
-				<script src="script.js"></script>
-			</div>
-		</body>
-	</div>
+
+				<div id="projectsDiv">
+					<div>
+						<p>Spa Website Redesign</p>
+						<a href="projects.html">
+							<img src="img/spa.png" alt="image of spa project" />
+						</a>
+					</div>
+					<div>
+						<p>GBCS Group Website Revamp</p>
+						<a href="projects.html">
+							<img src="img/gbcsgroup.png" alt="image of gbcs group website" />
+						</a>
+					</div>
+				</div>
+
+				<button id="projectsButton" onclick="toResume()">More Projects</button>
+			</section>
+			<footer class="footer">
+				<div><p>Thanks for Visiting!</p></div>
+				<div id="footerIcon"><p class="icon">AM</p></div>
+				<div id="icons">
+					<a
+						href="https://github.com/amonty27"
+						target="_blank"
+						rel="noreferrer noopener"
+						><i
+							class="fa-brands fa-square-github fa-2xl"
+							style="color: #000000"
+						></i
+					></a>
+					<a
+						href="https://www.linkedin.com/in/aliciamontgomery1/"
+						target="_blank"
+						rel="noopener noreferrer"
+						><i class="fa-brands fa-linkedin fa-2xl" style="color: #000000"></i
+					></a>
+					<a
+						href="mailto:alimon0729@gmail.com?subject=Reaching Out From Website"
+					>
+						<i class="fa-solid fa-envelope fa-2xl" style="color: #000000"></i>
+					</a>
+				</div>
+			</footer>
+		</div>
+		<script src="script.js"></script>
+	</body>
 </html>
