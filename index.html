@@ -3,11 +3,134 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono"
+		/>
+		<title>Home</title>
+		<link rel="icon" type="image/x-icon" href="img/AM.png" />
+		<script
+			src="https://kit.fontawesome.com/754a001a28.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
-		<h1>Hello World</h1>
-		<p>Alicia's Website is in the works....</p>
-		<p>test</p>
+		<div class="container">
+			<header class="nav colorrect">
+				<nav class="classynav">
+					<p class="icon">AM</p>
+					<ul class="classyul">
+						<li><a href="#">Home</a></li>
+						<li><a href="resume.html">Resume</a></li>
+						<li><a href="projects.html">Projects</a></li>
+					</ul>
+					<div class="timeclock">
+						<img src="/img/clock.svg" alt="clock icon" id="icon" />
+
+						<p id="time"></p>
+					</div>
+				</nav>
+			</header>
+			<section class="hero">
+				<h1 id="h1-1">Alicia</h1>
+				<h1 id="h1-2">Montgomery</h1>
+				<img
+					src="img/Alicia_Favicon_update.png"
+					alt="Pixel art potrait of Alicia Montgomery"
+				/>
+				<h1 id="h1-3">front-end</h1>
+				<h1 id="h1-4">developer</h1>
+			</section>
+			<section class="about">
+				<p id="p-1">
+					I am a recent graduate pursuing my web development dream.
+				</p>
+				<p id="p-2">
+					I have been drawn to pretty things ever since I was young. When I was
+					older, I understood that a human was behind those designs. One of the
+					reasons I like front-end development is because I can take beautiful
+					designs and turn them into functional "art." Taking someone's or my
+					designs and bringing them to life is my favorite part of the process.
+				</p>
+				<p id="p-3">
+					I recently graduated with a Master's in IT while working full-time. I
+					am now working on my skills to become an upstanding front-end
+					engineer.
+				</p>
+				<p id="p-4">
+					When not working, I make art, create video games (and play them!), and
+					watch anime.
+				</p>
+			</section>
+			<section class="projects">
+				<div id="h1Div">
+					<h1>Check out my Work!</h1>
+				</div>
+
+				<div id="projectsDiv">
+					<div>
+						<p>Spa Website Redesign</p>
+						<a href="projects.html">
+							<img src="img/spa.png" alt="image of spa project" />
+						</a>
+					</div>
+					<div>
+						<p>GBCS Group Website Revamp</p>
+						<a href="projects.html">
+							<img src="img/gbcsgroup.png" alt="image of gbcs group website" />
+						</a>
+					</div>
+				</div>
+
+				<button id="projectsButton" onclick="toProjects()">
+					More Projects
+				</button>
+			</section>
+			<footer class="footer">
+				<div><p>Thanks for Visiting!</p></div>
+				<div id="footerIcon"><p class="icon">AM</p></div>
+				<div id="icons">
+					<a
+						href="https://github.com/amonty27"
+						target="_blank"
+						rel="noreferrer noopener"
+						><i class="fa-brands fa-square-github fa-2xl"></i
+					></a>
+					<a
+						href="https://www.linkedin.com/in/aliciamontgomery1/"
+						target="_blank"
+						rel="noopener noreferrer"
+						><i class="fa-brands fa-linkedin fa-2xl"></i
+					></a>
+					<a
+						href="mailto:alimon0729@gmail.com?subject=Reaching Out From Website"
+					>
+						<i class="fa-solid fa-envelope fa-2xl"></i>
+					</a>
+				</div>
+			</footer>
+		</div>
+		<script src="script.js"></script>
+		<script>
+			window.si =
+				window.si ||
+				function () {
+					(window.siq = window.siq || []).push(arguments);
+				};
+		</script>
+		<script defer src="/_vercel/speed-insights/script.js"></script>
+		<script>
+			window.va =
+				window.va ||
+				function () {
+					(window.vaq = window.vaq || []).push(arguments);
+				};
+		</script>
+		<script defer src="/_vercel/insights/script.js"></script>
 	</body>
 </html>
