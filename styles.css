@@ -523,6 +523,16 @@ body {
 	color: white;
 	z-index: 0;
 }
+
+@media screen and (min-width: 850px) {
+	.titleDiv h2,
+	.titleDiv h3 {
+		font-size: small;
+		color: white;
+		z-index: 0;
+	}
+}
+
 #contentDiv1,
 #contentDiv2 {
 	display: none;

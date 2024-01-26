@@ -34,7 +34,7 @@ function toSpa() {
 
 	// open a new tab
 	window.open(
-		"https://www.figma.com/file/1GAJ04hvYdnSnrLCw8wF9r/Spa-Website-Redesign---IT-649---AliciaMontgomery?type=design&node-id=511%3A1139&mode=design&t=69axhIScgChXj6vC-1",
+		"https://www.figma.com/proto/1GAJ04hvYdnSnrLCw8wF9r/Spa-Website-Redesign---IT-649---AliciaMontgomery?page-id=511%3A1139&type=design&node-id=537-2&viewport=566%2C272%2C0.1&t=5g0qMGNzB376FVZ0-1&scaling=contain&starting-point-node-id=537%3A2&mode=design",
 		"_blank",
 		"noopener"
 	);
