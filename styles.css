@@ -485,6 +485,12 @@ body {
 	font-size: small;
 }
 
+@media screen and (min-width: 500px) {
+	.projectsDetails h1 {
+		font-size: medium;
+	}
+}
+
 #project1 {
 	background-color: var(--accent-color-1);
 }
