@@ -814,3 +814,13 @@ body {
 		font-size: large;
 	}
 }
+
+@media (min-width: 750px) {
+	.equipment > div div p {
+		font-size: large;
+	}
+
+	.notion button {
+		font-size: larger;
+	}
+}
