@@ -22,6 +22,15 @@ function toResume() {
 	// open a new tab
 	window.open("MontgomeryAlicia_Resume_Web.pdf", "_blank", "noopener");
 }
+function toWeb() {
+	const name = document.querySelector("#toWeb");
+	// open a new tab
+	window.open(
+		"https://github.com/amonty27/Alicia-WebsiteV1.2",
+		"_blank",
+		"noopener"
+	);
+}
 
 function toGBCSWeb() {
 	const name = document.querySelector("#toGBCS");
@@ -40,9 +49,21 @@ function toSpa() {
 	);
 }
 
+function toMoth() {
+	const name = document.querySelector("#toMoth");
+
+	// open a new tab
+	window.open(
+		"https://amonty27.github.io/MothClassifierWebsite/",
+		"_blank",
+		"noopener"
+	);
+}
+
 function display(id) {
 	var content = document.getElementById(id);
 
+	/* content.style.display = content.style.display != "none" ? "none" : "block"; */
 	if (content.style.display !== "none") {
 		content.style.display = "none";
 	} else {
