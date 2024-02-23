@@ -1,6 +1,6 @@
 # Alicia's Portfolio Website
 I created this website to showcase all my web dev skills and other projects. Made using the three fundamental building blocks of the web: HTML, CSS, and Javascript. 
-
+![Homepage of Portfolio Website](./img/websiteHome.png)
 ## Process
 I began by creating the design for the website in Figma. I had a general idea of what information I wanted on the site. Using Figma helped me solidify precisely where everything would fit. I made the mobile designs to ensure the website would work on mobile devices and scaled the designs to other formats.
 
