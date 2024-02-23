@@ -42,16 +42,110 @@
 			<section class="projectsDetails">
 				<h1>Projects</h1>
 				<p>Click to view more</p>
-				<div id="project1">
+				<div class="projectPink">
+					<div class="titleDiv" onclick="display('contentDiv4')">
+						<img
+							class="selector"
+							draggable="false"
+							src="img/websiteHome.png"
+							alt="decorative image"
+						/>
+						<h2>Personal Website - 2024</h2>
+						<h3>Design, Web Dev</h3>
+					</div>
+					<div class="contentDiv" id="contentDiv4" style="display: none">
+						<p><b>A Personal Website for Alicia Montgomery</b></p>
+						<div class="innerDiv">
+							<img
+								class="selector"
+								draggable="false"
+								src="img/websiteHome.png"
+								alt="My website's homepage"
+							/>
+							<div>
+								<p>
+									I built this website to showcase my web development skills and
+									carve out a small space on the internet for everything that
+									interests me.
+								</p>
+								<p>
+									I started by designing the website from scratch, building it
+									line-by-line, and deploying it on the web.
+								</p>
+								<p>
+									This project reiterated the importance of the fundamentals and
+									how to deploy a project from start to finish.
+								</p>
+								<p>
+									<b>Technologies/Tools:</b> HTML, CSS, CSS, Figma, GitHub,
+									Vercel
+								</p>
+							</div>
+						</div>
+						<button id="toWeb" onclick="toWeb()">View Project</button>
+					</div>
+				</div>
+				<div class="projectBlack">
+					<div class="titleDiv" onclick="display('contentDiv2')">
+						<img
+							class="selector"
+							draggable="false"
+							src="img/spa.png"
+							alt="decorative image"
+						/>
+						<h2>Spa Website Redesign - 2023</h2>
+						<h3>Design, UX/UR</h3>
+					</div>
+					<div class="contentDiv" id="contentDiv2" style="display: none">
+						<p><b>Redesigned a website for a (fictional) Spa business</b></p>
+						<div class="innerDiv">
+							<img
+								class="selector"
+								draggable="false"
+								src="img/spa.png"
+								alt="Spa Website Homepage Redesign"
+							/>
+							<div>
+								<p>
+									As a part of my master’s coursework, I created a new website
+									design for a fictional spa business, based on generated user
+									feedback.
+								</p>
+								<p>
+									For the project, I created the design, user research
+									documents, and pitch decks to show the clients the need for
+									user research.
+								</p>
+								<p>
+									This project taught me the importance of research before
+									design, and how to create pleasing designs.
+								</p>
+								<p><b>Technologies/Tools:</b> Figma, MS Word, MS Excel</p>
+							</div>
+						</div>
+						<button id="toSpa" onclick="toSpa()">View Project</button>
+					</div>
+				</div>
+				<div class="projectPink">
 					<div class="titleDiv" onclick="display('contentDiv1')">
-						<img src="img/gbcsgroup.png" alt="decorative image" />
+						<img
+							class="selector"
+							draggable="false"
+							src="img/gbcsgroup.png"
+							alt="decorative image"
+						/>
 						<h2>GBCS Group Website Revamp - 2022</h2>
 						<h3>Web Dev</h3>
 					</div>
 					<div class="contentDiv" id="contentDiv1" style="display: none">
 						<p><b>A New Website for the GBCS Group</b></p>
 						<div class="innerDiv">
-							<img src="img/gbcsgroup.png" alt="GBCS Groups's Homepage" />
+							<img
+								class="selector"
+								draggable="false"
+								src="img/gbcsgroup.png"
+								alt="GBCS Groups's Homepage"
+							/>
 							<div>
 								<p>
 									Supported building and deployment of the new GBCSGroup website
@@ -72,40 +166,50 @@
 								</p>
 							</div>
 						</div>
-
 						<button id="toGBCS" onclick="toGBCSWeb()">View Project</button>
 					</div>
 				</div>
-				<div id="project2">
-					<div class="titleDiv" onclick="display('contentDiv2')">
-						<img src="img/spa.png" alt="decorative image" />
-						<h2>Spa Website Redesign - 2022</h2>
-						<h3>Design, UX/UR</h3>
+				<div class="projectBlack">
+					<div class="titleDiv" onclick="display('contentDiv3')">
+						<img
+							class="selector"
+							draggable="false"
+							src="img/mothClassifier-embed.png"
+							alt="decorative image"
+						/>
+						<h2>Moth Classifier - 2020</h2>
+						<h3>Software Dev</h3>
 					</div>
-					<div class="contentDiv" id="contentDiv2" style="display: none">
-						<p><b>Redesigned a website for a (fictional) Spa business</b></p>
+					<div class="contentDiv" id="contentDiv3" style="display: none">
+						<p><b>Created an embedded system to classify moth species</b></p>
 						<div class="innerDiv">
-							<img src="img/spa.png" alt="Spa Website Homepage Redesign" />
+							<img
+								class="selector"
+								draggable="false"
+								src="img/mothClassifier-embed.png"
+								alt="Spa Website Homepage Redesign"
+							/>
 							<div>
 								<p>
-									As a part of my master’s coursework, I created a new website
-									design for a fictional spa business, based on generated user
-									feedback.
+									During my undergraduate degree, I had a year-long thesis
+									project on a team of 3. We created a Moth Classifier, an
+									embedded system that would take pictures of moths and classify
+									their species.
 								</p>
 								<p>
-									For the project, I created the design, user research
-									documents, and pitch decks to show the clients the need for
-									user research.
+									I was responsible for the design and implementation of the
+									embedded system. I used a Raspberry Pi and several Python
+									libraries to create an automated camera system to take
+									pictures of moths and send them to an AWS database.
 								</p>
 								<p>
-									This project taught me the importance of research before
-									design, and how to create pleasing designs.
+									This project taught me how to effectively take a project from
+									start to finish and work as a team.
 								</p>
-								<p><b>Technologies/Tools:</b> Figma, MS Word, MS Excel</p>
+								<p><b>Technologies/Tools:</b> Python, Raspberry Pi, GitHub</p>
 							</div>
 						</div>
-
-						<button id="toSpa" onclick="toSpa()">View Project</button>
+						<button id="toMoth" onclick="toMoth()">View Project</button>
 					</div>
 				</div>
 			</section>
