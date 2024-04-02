@@ -5,7 +5,7 @@ window.onload = function () {
 		const localTime = d.getTime();
 		const localOffset = d.getTimezoneOffset() * 60000;
 		const utc = localTime + localOffset;
-		const offset = -5;
+		const offset = -4;
 		const usa = utc + 3600000 * offset;
 
 		const time = new Date(usa).toLocaleTimeString();
