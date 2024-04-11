@@ -61,7 +61,7 @@ function toMoth() {
 }
 
 function display(id) {
-	var content = document.getElementById(id);
+	let content = document.getElementById(id);
 
 	/* content.style.display = content.style.display != "none" ? "none" : "block"; */
 	if (content.style.display !== "none") {
